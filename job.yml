@@ -1,0 +1,12 @@
+---
+name: "build my stuff"
+description:
+ram: "512 MB"
+hdd: "216 MB"
+ports: [80, 8080]
+instances: 5
+tasks:
+  - type: "git clone"
+    url: "http://github.com/build-me"
+  - 2
+  - 3
