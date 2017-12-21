@@ -1,0 +1,9 @@
+---
+- name: "Wee Willy Winkies"
+  description: "Low spec containers for cheap!"
+  hdd: "100 MB"
+  ram: "256 MB"
+  bph: 0.000001
+  instances: 10
+  driver: "docker"
+  sell-as: "partial"  
